@@ -136,7 +136,7 @@ public class mockFileDataServlet extends HttpServlet {
         try {
           session = jsch.getSession("desktop-p9oqobg\\admin", "localhost", 22);
             session.setConfig("StrictHostKeyChecking", "no");
-            session.setPassword("r1334");
+            session.setPassword("*****");
             session.connect();
             Channel channel = session.openChannel("sftp");
             channel.connect();
