@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Home Page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form name="mockFile" action="mockFileServlet">
+        <h1><center>Books Catalog</center></h1>
+        <div class="homeDivStyle">
+                <table class="tableStyling" align="center"><tr>
+                        <td>Select Category</td>
+                        <td><select name="category" class="selectStyle"><option value="Books">Books</option>
+                                <option value="Music">Music</option>
+            </tr>
+            <tr><td><input type="radio" name="fileType" value="default" checked="">Default File</td></tr><tr>
+                <td><input type="radio" name="fileType" value="customized">Customized File</td></tr></table>
+        <input type="submit" value="Mock File" class="buttonStyle">
+        </div>
+        
+        </form>
+    </body>
+</html>

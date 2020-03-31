@@ -1,0 +1,77 @@
+body{
+    background-color:  #CACFD2;
+    font-family: serif;
+    font-size: 18px;
+}
+.homeDivStyle{
+    background:#ECF0F1 ;
+  margin: auto;
+  margin-top:150px;;
+  width: 30%;
+  border: 5px solid black;
+  padding: 30px;
+  border-radius: 10px;
+  
+}
+
+.buttonStyle{
+    background-color:black;
+    color:white;
+    font-size: 15px;
+    width:80px;
+    height:30px;
+    text-align: center;
+    margin-left:160px;
+    margin-top:20px;
+    position:relative;
+    border-radius:8px;
+    
+}
+
+.buttonStyle1{
+    background-color:black;
+    color:white;
+    font-size: 15px;
+    width:120px;
+    height:30px;
+    text-align: center;
+    margin-left:160px;
+    margin-top:20px;
+    position:relative;
+    border-radius:8px;
+    
+}
+.selectStyle{
+    width:80px;
+    height:30px;
+    border:2px solid black;
+}
+
+.styleLabel{
+    padding-right:120px;
+    padding-bottom:5px;
+}
+.styleLabel2{
+    padding-right:9px;
+    padding-bottom:5px;
+}
+
+.styleLabel3{
+    padding-right:11px;
+    padding-bottom:5px;
+}
+.styleLabel4{
+    padding-right:10px;
+    padding-bottom:5px;
+}
+.styleLabel5{
+    padding-right:17px;
+    padding-bottom:5px;
+}
+.inputStyle{
+    width:150px;
+    height:20px;
+    border:1px solid black;
+    border-radius:2px;
+    margin-bottom:3px;
+}
